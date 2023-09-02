@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ScreenContext } from "../../context/ScreenContext";
-import { MovieContext } from "../../../common/context/MovieContext/MovieContext";
+import { MovieContext } from "../../../common/context";
 import { FavoriteButton, PrimaryButton } from "../../../common/components/Button";
 
 

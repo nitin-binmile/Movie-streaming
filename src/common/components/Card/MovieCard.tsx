@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { FC, useContext } from "react";
 import { FavoriteButton } from "../Button/FavoriteButton";
-import { MovieContext } from "../../context/MovieContext/MovieContext";
+import { MovieContext } from "../../context";
 import { ScreenContext } from "../../../Screens/context/ScreenContext";
 
 export const MovieCard:  FC<CardType> = ({ movieId }) => {

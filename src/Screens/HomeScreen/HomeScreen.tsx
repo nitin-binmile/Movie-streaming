@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { MovieContext } from "../../common/context/MovieContext/MovieContext";
+import { MovieContext } from "../../common/context";
 import { MovieBanner } from "./components/MovieBanner";
 import { ScreenContextProvider } from "../context/ScreenContextProvider";
 import { ColumnScroll } from "../../common/components/Container";
