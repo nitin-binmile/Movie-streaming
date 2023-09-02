@@ -1,5 +1,5 @@
-import { HomeScreen} from "./HomeScreen/HomeScreen";
-import { DetailScreen } from "./DetailScreen/DetailScreen";
+import { HomeScreen } from "./HomeScreen/HomeScreen";
+import { TrendingScreen } from "./TrendingScreen/TrendingScreen";
+import { FavoriteScreen } from "./FavoriteScreen/FavoriteScreen";
 
-
-export { HomeScreen, DetailScreen};
+export { HomeScreen, TrendingScreen, FavoriteScreen };

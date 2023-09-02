@@ -1,5 +1,5 @@
 import { RoutesType } from "./type";
-import { HomeScreen, DetailScreen } from "../Screens";
+import { HomeScreen, FavoriteScreen,TrendingScreen } from "../Screens";
 
 export const RoutesConfig : RoutesType = {
     Home:{
@@ -8,10 +8,10 @@ export const RoutesConfig : RoutesType = {
     },
     Favorite : {
         path: "favorite",
-        Component: DetailScreen
+        Component: FavoriteScreen
     },
     Trending : {
         path: "trending",
-        Component: DetailScreen
+        Component: TrendingScreen
     }
 } 

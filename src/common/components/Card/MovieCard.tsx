@@ -34,4 +34,3 @@ export const MovieCard:  FC<CardType> = ({ movieId }) => {
   );
 };
 
-export const MovieMemo = React.memo

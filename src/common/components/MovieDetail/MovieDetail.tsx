@@ -1,8 +1,8 @@
 import { FC, useContext } from "react";
-import { ScreenContext } from "../../context/ScreenContext";
 import PrimaryButton from "../../../common/components/Button/PrimaryButton";
 import { FavoriteButton } from "../../../common/components/Button/FavoriteButton";
 import { MovieContext } from "../../../common/context/MovieContext/MovieContext";
+import { ScreenContext } from "../../../Screens/context/ScreenContext";
 
 export const MovieDetail: FC = () => {
   const { selected } = useContext(ScreenContext);
